@@ -4,10 +4,10 @@
  *
  *Description : a program that prints with put function
  *
- * Returns 0 which is success 
+ *Returns 0 which is success 
  *
 */
-int main(void)
+int main(void) // main function
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
