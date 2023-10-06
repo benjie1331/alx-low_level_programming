@@ -1,11 +1,10 @@
 #include<stdio.h>
 /*
-*main function that takes no arguments 
- *
- *Description : a program that prints with put function
- *
-*Returns 0 which is success 
- *
+*main function that takes no arguments
+*Description : a program that prints with put function
+*
+*Returns 0 which is success
+*
 */
 int main(void) /* main functio */
 {
