@@ -6,7 +6,7 @@
 *Returns 0 which is success
 *
 */
-int main(void) /* main functio */
+int main(void) /*  Decription: main functio */
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
