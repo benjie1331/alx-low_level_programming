@@ -7,7 +7,10 @@
 * Returns 0 which is success
 *
 */
-int main(void) 
+int main(void)
+/*
+* Main entry point
+*/ 
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
