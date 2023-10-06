@@ -7,7 +7,7 @@
  *Returns 0 which is success 
  *
 */
-int main(void) // main function
+int main(void) /* main functio */
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
