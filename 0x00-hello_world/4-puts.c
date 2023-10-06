@@ -1,12 +1,13 @@
 #include<stdio.h>
 /*
-*main function that takes no arguments
-*Description : a program that prints with put function
+* main - function that takes no arguments
 *
-*Returns 0 which is success
+* Description : a program that prints with put function
+*
+* Returns 0 which is success
 *
 */
-int main(void) /*  Decription: main functio */
+int main(void) 
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
