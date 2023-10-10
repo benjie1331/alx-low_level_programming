@@ -2,7 +2,7 @@
 /**
  * print_alphabet - using th _putchar 
  */
-void print_alpha(void)
+void print_alphabet(void)
 	
 	int ch;
 
