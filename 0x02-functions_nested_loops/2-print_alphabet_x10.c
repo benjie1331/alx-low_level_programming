@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_alphabet_x10 - fcn that prints alphabet
- * Description: function with _putchar function for printing alphabet in lower case 
+ * Description: function with _putchar function for printing alphabet
  * Return: Nothing.
  */
 void print_alphabet_x10(void)
