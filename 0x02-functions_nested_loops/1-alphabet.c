@@ -3,8 +3,6 @@
  * print_alphabet - using th _putchar
  */
 void print_alphabet(void)
-
-	void print_alphabet(void)
 {
 	char ch;
 
