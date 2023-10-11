@@ -14,6 +14,10 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 		n++;
+		if (n == 9)
+		{
+			putchar(n + 48);
+		}
 	}
 
 	return (0);
