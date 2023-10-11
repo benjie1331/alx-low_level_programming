@@ -1,4 +1,4 @@
-#include <sdtio.h>
+#include <stdio.h>
 /**
  *  main - entry point
  *  Description: prints base 10 single num
