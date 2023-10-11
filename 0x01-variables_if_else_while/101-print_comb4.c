@@ -10,7 +10,7 @@ int main(void)
 
 	int n2, n3;
 
-	while (n <= 9)
+	while (n1 <= 9)
 	{
 		n2 = 0;
 		while (n2 <= 9)
