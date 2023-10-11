@@ -19,6 +19,7 @@ int main(void)
 			putchar(n + 48);
 			break;
 		}
+		putchar('\n');
 	}
 
 	return (0);
