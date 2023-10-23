@@ -7,9 +7,9 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	char *og = dest;
+	int count;
 
-	while (*src != 0)
+	for (count = 0; src[count] != 0; count++)
 	{
 		*dest = *src;
 
@@ -18,7 +18,7 @@ char *_strcpy(char *dest, char *src)
 		src--;
 	}
 
-	*dest = '\0';
+	dest[count] = '\0';
 
-	return (og);
+	return (dest);
 }
