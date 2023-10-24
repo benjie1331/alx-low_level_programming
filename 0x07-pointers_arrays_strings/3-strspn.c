@@ -7,9 +7,7 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j, m, k, counter;
-
-	counter = 0;
+	int i, j, m, k;
 
 	i = 0;
 
@@ -20,15 +18,14 @@ unsigned int _strspn(char *s, char *accept)
 	while (s[j] != 0)
 		j++;
 
-	for (m = 0; m <= i; m++)
+	for (k = 0; k <= j; k++)
 	{
-		for (k = 0; k <= j; k++)
+		for (m = 0; accept[m] != s[k]; m++)
 		{
-			if (accept[m] == s[k])
-			{	counter++;
-
-				break;
+			if (accept[m] == 0)
+			{
+				return (k);
 			}
 		}
-	} return counter;
+	} return k;
 }
