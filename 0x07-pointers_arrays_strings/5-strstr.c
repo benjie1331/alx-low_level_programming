@@ -26,10 +26,11 @@ char *_strstr(char *haystack, char *needle)
 			{
 				break;
 			}
-		
-		}	if (needle[m] == 0)
-				return (&haystack[j]);
-		
+
+		}
+	if (needle[m] == 0)
+	return (&haystack[j]);
+
 	} return (NULL);
 
 }
