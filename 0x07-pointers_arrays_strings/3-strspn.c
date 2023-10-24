@@ -7,7 +7,7 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j, m, k;
+	unsigned int i, j, m, k;
 
 	i = 0;
 
@@ -18,7 +18,7 @@ unsigned int _strspn(char *s, char *accept)
 	while (s[j] != 0)
 		j++;
 
-	for (k = 0; k <= j; k++)
+	for (k = 0; k < j; k++)
 	{
 		for (m = 0; accept[m] != s[k]; m++)
 		{
@@ -27,5 +27,5 @@ unsigned int _strspn(char *s, char *accept)
 				return (k);
 			}
 		}
-	} return k;
+	} return (k);
 }
