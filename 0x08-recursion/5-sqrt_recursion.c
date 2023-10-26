@@ -2,18 +2,32 @@
 /**
  * _sqrt_recursion - fcn that returns the sqrt of a number
  * @n: input
+ * @num: input
  * Return: int
  */
+int sqrt(int n, int num);
+
 int _sqrt_recursion(int n)
 {
-	int k;
+	return (sqrt(n, 1));
+}
 
-	if ((n ^ 0.5) % 1 == 0)
+/**
+ * sqrt - fcn that returns sqre root
+ * @num: input
+ * @n: input
+ * Return: int
+ */
+
+int sqrt(int n, int num)
+{
+	if (num * num == n)
+	return (num);
+
+	else if (num * num < n)
 	{
-		k = (n ^ 0.5);
-	return (k);
+	return (sqrt(n, num + 1));
 	}
 	else
-		return (-1);
-
+	return (-1);
 }
