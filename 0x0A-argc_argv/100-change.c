@@ -8,14 +8,14 @@
  */
 int main(int argc, char *argv[])
 {
+	if (argc == 2)
+	{
+
 	int arr[] = {25, 10, 5, 2, 1};
 
 	int valueofcents = 0;
 
 	int bucks = atoi(argv[1]), i;
-
-	if (argc == 2)
-	{
 
 	for (i = 0; i < 5; i++)
 	{
@@ -30,6 +30,11 @@ int main(int argc, char *argv[])
 
 	}
 	printf("%d\n", valueofcents);
+	}
+	else if (argc == 1)
+	{
+		printf("Error\n");
+		return (1);
 	}
 	else
 	{
