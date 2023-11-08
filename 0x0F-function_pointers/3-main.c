@@ -12,12 +12,13 @@ int main(int argc, char **argv)
 	int (*op_func)(int, int), a, b;
 
 	if (argc != 4)
-		printf("Error\n"), exit(98));
-
+	{
+		printf("Error\n"), exit(98);
+	}
 		a = atoi(argv[1]);
-		a = atoi(argv[3]);
+		b = atoi(argv[3]);
 
-		op_func = get_op_func(agrv[2]);
+		op_func = get_op_func(argv[2]);
 		if (!op_func)
 			printf("Error\n"), exit(99);
 
