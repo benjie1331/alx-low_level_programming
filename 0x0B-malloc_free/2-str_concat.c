@@ -4,6 +4,7 @@
  * *str_concat - fcn that concatenates
  * @s1: input
  * @s2: input
+ * Return: char pointer
  */
 char *str_concat(char *s1, char *s2)
 {
